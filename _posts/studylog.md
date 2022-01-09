@@ -34,6 +34,7 @@
 | 2022.01.06 | 개념 | 모듈 패키지화하기, 패키지 npm에 올리기 |
 | 2022.01.07 | 개념 | nodemon, npm 명령어, npm vs yarn |
 | 2022.01.08 | 개념 | express, API서버, api서버 구현하기 |
+| 2022.01.09 | 개념 | 리소스, 쿼리사용, 리퀘스트메소드 |
 
 ---
 **스콧영 (Scott Young)의 저서 [울트라러닝](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791162541289)** 을 따라 응용하였습니다.
