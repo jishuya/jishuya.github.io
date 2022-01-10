@@ -35,7 +35,8 @@
 | 2022.01.07 | 개념 | nodemon, npm 명령어, npm vs yarn |
 | 2022.01.08 | 개념 | express, API서버, api서버 구현하기 |
 | 2022.01.09 | 개념 | 리소스, 쿼리사용, 리퀘스트메소드 |
-
+| 2022.01.10 | 개념 | * 일주일 피드백 * |
+| 2022.01.11 | 개념 | path 오류 해결하기 |
 ---
 **스콧영 (Scott Young)의 저서 [울트라러닝](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791162541289)** 을 따라 응용하였습니다.
 
