@@ -20,6 +20,8 @@
 | 목표 | [울트라코딩] https://blog.naver.com/jishuya3015/222578067986
 
 ### StudyLog
+https://github.com/jishuya/nodeStudy
+
 | 날짜 | 분류 | 주제 |
 | :-----------:| :-----------: | :-------------------: |
 | 2021.12.07 | 개념 | Node.js 환경 |
@@ -36,7 +38,7 @@
 | 2022.01.08 | 개념 | express, API서버, api서버 구현하기 |
 | 2022.01.09 | 개념 | 리소스, 쿼리사용, 리퀘스트메소드 |
 | 2022.01.10 | 개념 | * 일주일 피드백 * |
-| 2022.01.11 | 개념 | path 오류 해결하기 |
+| 2022.01.11 | 개념 | Post 리퀘스트, path 오류 해결하기 |
 ---
 **스콧영 (Scott Young)의 저서 [울트라러닝](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791162541289)** 을 따라 응용하였습니다.
 
