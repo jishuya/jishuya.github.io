@@ -39,6 +39,7 @@ https://github.com/jishuya/nodeStudy
 | 2022.01.09 | 개념 | 리소스, 쿼리사용, 리퀘스트메소드 |
 | 2022.01.10 | 개념 | * 일주일 피드백 * |
 | 2022.01.11 | 개념 | Post 리퀘스트, path 오류 해결하기 |
+| 2022.01.12 | 개념 | 미들웨어추가, 개발용/배포용구분하기,scripts명령어, 객체출력 |
 ---
 **스콧영 (Scott Young)의 저서 [울트라러닝](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791162541289)** 을 따라 응용하였습니다.
 
