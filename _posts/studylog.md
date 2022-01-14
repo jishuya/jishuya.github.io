@@ -41,6 +41,7 @@ https://github.com/jishuya/nodeStudy
 | 2022.01.11 | 개념 | Post 리퀘스트, path 오류 해결하기 |
 | 2022.01.12 | 개념 | 미들웨어추가, 개발용/배포용구분하기,scripts명령어, 객체출력 |
 | 2022.01.13 | 개념 | Put리퀘스트, 리소스처리하기, SQL |
+| 2022.01.14 | 개념 | ORM을 이용한 DB생성 및 연결  |
 ---
 **스콧영 (Scott Young)의 저서 [울트라러닝](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791162541289)** 을 따라 응용하였습니다.
 
