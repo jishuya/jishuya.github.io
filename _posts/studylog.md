@@ -45,7 +45,9 @@ https://github.com/jishuya/nodeStudy
 | 2022.01.15 | 개념 | ORM을 이용한 데이블 생성/삭제 및 DB연동하기  |
 | 2022.01.17 | 개념 | seed 데이터 넣기, sequelize를 이용한 데이터 조회하기 |
 | 2022.01.18 | 개념 | 정보 조회, 정보 추가, 정보 수정 |
-| 2022.01.18 | 개념 | 회원정보삭제, 객체의 메소드 사용하기|
+| 2022.01.19 | 개념 | 회원정보삭제, 객체의 메소드 사용하기|
+| 2022.01.20 | 개념 | HAROKU DB 사용하기위한 환경설정|
+
 ---
 **스콧영 (Scott Young)의 저서 [울트라러닝](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791162541289)** 을 따라 응용하였습니다.
 
