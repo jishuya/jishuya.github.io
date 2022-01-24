@@ -22,6 +22,7 @@
 ### StudyLog
 https://github.com/jishuya/nodeStudy
 
+### Node.js
 | 날짜 | 분류 | 주제 |
 | :-----------:| :-----------: | :-------------------: |
 | 2021.12.07 | 개념 | Node.js 환경 |
@@ -48,7 +49,12 @@ https://github.com/jishuya/nodeStudy
 | 2022.01.19 | 개념 | 회원정보삭제, 객체의 메소드 사용하기|
 | 2022.01.20 | 개념 | HAROKU DB 사용하기위한 환경설정|
 | 2022.01.21 | 개념 | HAROKU 깃헙 연동하기, 배포하기, 사전 배포하기|
-| 2022.01.21 | 개념 | HAROKU에 자동배포하기 TEST|
+| 2022.01.22 | 개념 | HAROKU에 자동배포하기 TEST|
+
+### SQL
+| 날짜 | 분류 | 주제 |
+| :-----------:| :-----------: | :-------------------: |
+| 2022.01.24 | 개념 | mysql 환경 설정|
 
 ---
 **스콧영 (Scott Young)의 저서 [울트라러닝](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791162541289)** 을 따라 응용하였습니다.
