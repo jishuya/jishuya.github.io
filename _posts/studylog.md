@@ -55,6 +55,7 @@ https://github.com/jishuya/nodeStudy
 | 날짜 | 분류 | 주제 |
 | :-----------:| :-----------: | :-------------------: |
 | 2022.01.24 | 개념 | mysql 환경 설정|
+| 2022.01.25 | 개념 | DB 셋팅, table 셋팅|
 
 ---
 **스콧영 (Scott Young)의 저서 [울트라러닝](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791162541289)** 을 따라 응용하였습니다.
