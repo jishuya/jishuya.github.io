@@ -27,6 +27,11 @@ https://github.com/jishuya/vue-news
 | :-----------:| :-----------: | :-------------------: |
 | 2021.03.22 | 실습 | store 구현하기 |
 | 2021.03.24 | 실습 | store 연결하기 |
+| 2021.03.25 | 실습 | methods, databinding, event |
+| 2021.03.28 | 실습 | CSS, vue life cycle |
+| 2021.03.29 | 실습 | computed |
+| 2021.03.30 | 실습 | watch |
+| 2021.04.04 | 실습 | v-if, v-show |
 
 
 
