@@ -32,6 +32,12 @@ https://github.com/jishuya/vue-news
 | 2021.03.29 | 실습 | computed |
 | 2021.03.30 | 실습 | watch |
 | 2021.04.04 | 실습 | v-if, v-show |
+| 2021.04.06 | 실습 | vuetify 사용 |
+| 2021.04.25 | 실습 | state |
+| 2021.04.26 | 실습 | mutations |
+| 2021.04.27 | 실습 | actions |
+| 2021.04.28 | 실습 | mapState, mapGetters |
+| 2021.04.29 | 실습 | 스타일링, v-vind로 링크연결하기 |
 
 
 
