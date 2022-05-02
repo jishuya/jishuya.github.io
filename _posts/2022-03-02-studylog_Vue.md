@@ -38,6 +38,7 @@ https://github.com/jishuya/vue-news
 | 2021.04.27 | 실습 | actions |
 | 2021.04.28 | 실습 | mapState, mapGetters |
 | 2021.04.29 | 실습 | 스타일링, v-vind로 링크연결하기 |
+| 2021.05.02 | 실습 | 동적라우팅 |
 
 
 
