@@ -15,6 +15,9 @@
     
     /* Size */
     --size-max-width: 1200px; 
+
+    /* Background */
+    --home-bg-gradient: linear-gradient(180deg, rgba(19,43,85,1) 17%, rgba(5,10,19,1) 88%);
 }
 
 * {
@@ -143,6 +146,7 @@ border-radius: 4px;
 /* home */
 #home{
     background-color: var(--color-primary);
+    background: var(--home-bg-gradient);
     color: var(--color-text);
     text-align: center;
     padding: 5rem 1rem;
