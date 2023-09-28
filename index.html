@@ -34,7 +34,7 @@
                 <li class="header__menu__item"><a href="#home">Home</a></li>
                 <li class="header__menu__item"><a href="#about">About</a></li>
                 <li class="header__menu__item"><a href="#skills">Skills</a></li>
-                <li class="header__menu__item"><a href="#testimonial">Testimonials</a></li>
+                <li class="header__menu__item"><a href="#activity">Activites</a></li>
                 <li class="header__menu__item"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -101,31 +101,148 @@
                 <div class="skill__coding">
                     <h3 class="subtitle">Coding Skills</h3>
                     <ul class="skill">
-                        <div class="skill__bar">
-                            <div class="skill__value"></div>
-                        </div>
+                        <li class="bar">
+                            <div class="bar__metadata"><span>HTML</span><span>100%</span></div>
+                            <div class="bar__bg"><div class="bar__value" style="width: 100%;"></div></div>
+                        </li>
+                        <li class="bar">
+                            <div class="bar__metadata"><span>CSS</span><span>95%<</span></div>
+                            <div class="bar__bg"><div class="bar__value" style="width: 95%;"></div></div>
+                        </li>
+                        <li class="bar">
+                            <div class="bar__metadata"><span>Javascript</span><span>100%</span></div>
+                            <div class="bar__bg"><div class="bar_value" style="width: 99%;"></div></div>
+                        </li>
+                        <li class="bar">
+                            <div class="bar__metadata"><span>Vue</span><span>90%</span></div>
+                            <div class="bar__bg"><div class="bar_value" style="width: 88%;"></div></div>
+                        </li>
+                        <li class="bar">
+                            <div class="bar__metadata"><span>NodeJs</span><span>80%</span></div>
+                            <div class="bar__bg"><div class="bar_value" style="width: 82%;"></div></div>
+                        </li>
                     </ul>
                 </div>
-                <div class="skill__tools"></div>
-                <div class="skill__etc"></div>
-                
                 <div class="skill__tools">
-                    <ul></ul>
+                    <li>Visual Studio Code</li>
+                    <li>Npm</li>
+                    <li>Yarn</li>
+                    <li>Chrome DevTools</li>
                 </div>
-                <div class="skill__etc">
-                    
+                <div class="skill__etc"></div>
+                    <il>Git</il>
+                    <il>Docker</il>
                 </div>
             </div>
         </section>
         <!-- Work -->
-        <section id="work">Work</section>
-        <!-- Testimonial -->
-        <section id="testimonial">Testimonials</section>
+        <section id="work">
+            <h2 class="title">My work</h2>
+            <p class="description">Projects</p>
+            <ul class="categories">
+                <li><button class="category category--selected" data-category="all">All<span class="category__count">4</span></button></li>
+                <li><button class="category" data-category="Front-end">Front-end<span class="category__count">4</span></button></li>
+                <li><button class="category" data-category="Back-end">Front-end<span class="category__count">2</span></button></li>
+                <li><button class="category" data-category="Mobile">Mobile<span class="category__count">1</span></button></li>
+            </ul>
+            <ul class="projects">
+                <li class="project">
+                    <a href="#">
+                        <img class="project__img" src="/imgs/projects/tas.png" alt="TAS">
+                        <div class="project__metadata">
+                            <h3 class="project__title">TAS</h3>
+                            <p>Traffic Analysis System</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="project">
+                    <a href="#">
+                        <img class="project__img" src="/imgs/projects/tms2.png" alt="TMS">
+                        <div class="project__metadata">
+                            <h3 class="project__title">TMSv2</h3>
+                            <p>Traffic Monitioring System</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="project">
+                    <a href="#">
+                        <img class="project__img" src="/imgs/projects/tms3.png" alt="TMS">
+                        <div class="project__metadata">
+                            <h3 class="project__title">TMSv3</h3>
+                            <p>Traffic Monitioring System</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="project">
+                    <a href="#">
+                        <img class="project__img" src="/imgs/projects/youtube.png" alt="youtube">
+                        <div class="project__metadata">
+                            <h3 class="project__title">TAS</h3>
+                            <p>Youtube clone coding</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <!-- Activites -->
+        <section id="activiy">
+            <h2 class="title">Activites</h2>
+            <p class="description">See what I've been doing to grow</p>
+            <ul class="activites">
+                <li class="activity">
+                    <img class="activity__img" src="/imgs/testimonial/people1.jpg" alt="people1">
+                    <p><a href="#">크몽</a>웹개발 과외</p>
+                    <p>크몽에서 웹개발 강의를 하고 있습니다. 만족도 평균 4.5! 쉽고 친절하게 웹개발의 기초를 잡아주는 강의를 진행하고 있습니다.</p>
+                </li>
+                <li class="activity">
+                    <img class="activity__img" src="/imgs/testimonial/people1.jpg" alt="people1">
+                    <p><a href="#">폴리텍</a>외주 강의</p>
+                    <p>폴리텍 대학 분당 융기원에서 웹개발을 준비하는 학생들을 대상으로 React 강의를 진행하였습니다.</p>
+                </li>
+                <li class="activity">
+                    <img class="activity__img" src="/imgs/testimonial/people1.jpg" alt="people1">
+                    <p><a href="#">인스타그램</a>자기 계발</p>
+                    <p>3년째 습관모임을 운영하면서 </p>
+                </li>
+            </ul>
+        </section>
         <!-- Arrow up -->
-        <aside id="arrow"></aside>
+        <aside>
+            <a class="arrow-up" href="#home" title="back to top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </aside>
     </main>
     <!-- footer -->
-    <footer id="contact"></footer>
+    <footer id="contact" class="section">
+        <div class="max-container">
+            <h2 class="title">Contact</h2>
+            <p class="description">jishuya3015@gmail.com</p>
+            <ul class="contact__links">
+                <li>
+                    <a 
+                        class="contact__link"
+                        href="https://github.com/jishuya"
+                        target="_blank"
+                        title="my github link"
+                        >
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a 
+                        class="contact__link"
+                        href="#"
+                        target="_blank"
+                        title="my limkedin link"
+                        >
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+            <p>ⓒJishu - All rights reserved</p>
+        </div>
 
+    </footer>
 </body>
 </html>
