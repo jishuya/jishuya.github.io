@@ -1,0 +1,51 @@
+
+/* Global */
+:root {
+    /* App Colors */
+    --color-primary: var(--color-purple);
+    --color-primary-variant: var(--color-blue);
+    --color-accent: var(--color-lightpurple);
+    --color-accent-variant: var(--color-apricot);
+    --color-text: var(var(--color-white))
+    
+    /* Colors */
+    --color-purple: #7286D3;
+    --color-blue: #8EA7E9;
+    --color-lightpurple: #E5E0FF;
+    --color-apricot: #FFF2F2;
+    --color-white: #ffffff;
+    --color-gray: #DBDFEA;
+    --color-black: #050a13;
+
+    /* Size */
+    --size-max-width: 1200px;
+    
+}
+
+* {
+
+}
+
+body {
+
+}
+
+h1, h2, h3, p, ul{
+
+}
+
+ul {
+
+}
+
+a {
+
+}
+
+button {
+
+}
+
+button:focus {
+
+}
