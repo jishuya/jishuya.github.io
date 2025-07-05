@@ -7,16 +7,56 @@
   --color-accent-variant: var(--color-sky);
   --color-text: var(--color-white);
 
-  --color-black: #0F0F0F;
+  /* 네온 민트 */
+  /* --color-black: #0F0F0F;
   --color-gray: #08211f;
   --color-mint: #00C897;
   --color-sky: #66F2D5;
-  --color-white: #F1F1F1;
+  --color-white: #F1F1F1; */
 
+  /* 네온 블루 */
+  /* --color-black: #0F0F0F;
+  --color-gray: #101820;
+  --color-accent: #00BFFF;    
+  --color-accent-variant: #70E4FF; 
+  --color-text: #F1F1F1; */
+
+  /* 라임그린 - work의 count 색상 변경 필요*/
+  --color-black: #0F0F0F;
+  --color-gray: #1A1F1A;
+  --color-accent: #B2FF59;       
+  --color-accent-variant: #D3FF9B; 
+  --color-text: #F1F1F1;
+  --color-count: #2e4612;
+
+  /* 주황+노랑 따뜻함 */
+  /* --color-black: #121212;
+  --color-gray: #37270a;
+  --color-accent: #FFA726;       
+  --color-accent-variant: #FFD95B; 
+  --color-text: #F1F1F1;
+  --color-count: #5e4311; */
+
+  /* 핑크네온 */
+  /* --color-black: #0F0F0F;          
+  --color-gray: #1A0F14;           
+  --color-accent: #FF3CAC;        
+  --color-accent-variant: #FF77C2; 
+  --color-text: #F1F1F1;      */
 
   /* Size */
   --size-max-width: 1200px;
+
+  /* Divider */
+  --divider-single-wave: url('../images/waves.svg');
+  --divider-multi-wave: url('../images/wavesOpacity.svg');
+  --divider-arrow: url('../images/arrow.svg');
+
+  /* Background */
+  --home-bg-gradient: linear-gradient(180deg,rgba(18, 74, 18, 1) 0%, rgba(0, 0, 0, 1) 50%);
 }
+
+
 
 * {
   box-sizing: border-box;
@@ -146,12 +186,32 @@ button:focus {
 
 /* Home */
 #home {
-  background-color: var(--color-primary);
+  position: relative;
+  background: var(--home-bg-gradient);
   color: var(--color-text);
   padding: 5rem 1rem;
   padding-top: 7rem;
   text-align: center;
 }
+
+#home::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 60px;
+  background-color: white;
+    mask: var(--divider-single-wave);
+    -webkit-mask: var(--divider-single-wave);
+
+}
+
 
 .home__avatar {
   width: 250px;
@@ -247,8 +307,25 @@ button:focus {
 
 /* Skills */
 #skills {
+  position: relative;
   background-color: var(--color-primary-variant);
   color: var(--color-text);
+}
+
+#skills::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    width: calc(102% + 1.3px);
+    height: 82px;
+    background-color: var(--color-primary);
+    mask: var(--divider-multi-wave);
+    -webkit-mask: var(--divider-multi-wave);
 }
 
 .skills {
@@ -262,6 +339,7 @@ button:focus {
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
 }
+
 
 .skills__title {
   color: var(--color-accent);
@@ -349,7 +427,7 @@ button:focus {
   line-height: 28px;
   border-radius: 100%;
   background-color: var(--color-accent-variant);
-  color: var(--color-text);
+  color: var(--color-count);
   transition: all 250ms ease-in;
 }
 
@@ -467,13 +545,30 @@ button:focus {
 
 /* Footer */
 #contact {
+  position: relative;
   background-color: var(--color-primary);
   color: var(--color-text);
 }
 
-.title {
-  color: var(--color-mint)
+#contact::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    line-height: 0;
+    width: calc(102% + 1.3px);
+    height: 82px;
+    /* background: white; */
+    background: white;
+    mask: var(--divider-arrow);
+    -webkit-mask: var(--divider-arrow);
 }
+
+#contact .title {
+  color: var(--color-accent-variant);
+}
+
 
 .contact__links {
   display: flex;
